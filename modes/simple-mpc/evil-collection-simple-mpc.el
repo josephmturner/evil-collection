@@ -44,6 +44,7 @@
     "c" 'simple-mpc-view-current-playlist
     "l" 'simple-mpc-load-playlist
     "S" 'simple-mpc-shuffle-current-playlist
+    "r" 'simple-mpc-toggle-repeat
     "C" 'simple-mpc-clear-current-playlist
     "+" 'simple-mpc-increase-volume
     "-" 'simple-mpc-decrease-volume
@@ -96,6 +97,7 @@
             "      * seek [b]ackward\n"
             "      * [+] increase volume\n"
             "      * [-] decrease volume\n"
+            "      * toggle [r]epeat mode\n"
             (propertize "\n   * playlist\n" 'face 'simple-mpc-main-headers)
             "      * view [c]urrent playlist\n"
             "      * [C]lear current playlist\n"
